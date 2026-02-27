@@ -47,7 +47,7 @@ tailwind.config = {
   .nav-link { position: relative; }
   .nav-link::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 1px; background: #c8a45e; transition: width 0.3s; }
   .nav-link:hover::after { width: 100%; }
-  header.scrolled { background: rgba(12,18,32,0.95); backdrop-filter: blur(12px); }
+  header { background: rgba(12,18,32,0.95); backdrop-filter: blur(12px); }
   .lightbox { display: none; position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,0.95); align-items: center; justify-content: center; }
   .lightbox.active { display: flex; }
   .lightbox img { max-width: 90vw; max-height: 85vh; object-fit: contain; }
@@ -99,6 +99,7 @@ tailwind.config = {
     <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight">Downtown 1st</h1>
     <p class="text-xl md:text-2xl text-gray-300 font-light tracking-wide mb-4">A Luxury Miami Rental</p>
     <p class="text-gray-400 text-lg mb-10">56 Stories · Bay & Skyline Views · Downtown Miami</p>
+    <a href="tel:3056051111" class="text-accent text-2xl md:text-3xl tracking-wider font-bold block mb-8">305.605.1111</a>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
       <a href="#gallery" class="px-8 py-3 bg-accent text-dark font-semibold rounded hover:bg-accent-light transition">Explore</a>
       <a href="#contact" class="px-8 py-3 border border-white/20 text-white rounded hover:border-accent hover:text-accent transition">Schedule a Tour</a>
